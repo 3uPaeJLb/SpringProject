@@ -13,9 +13,9 @@ public class Task {
     @SequenceGenerator(name = "tasks_id_seq", sequenceName = "tasks_id_seq", allocationSize = 1)
     private Long id;
 
-    @Column(name = "name")
+    @Column
     private String name;
 
-    @Column(name = "status")
+    @Column
     private String status;
 }

@@ -1,9 +1,9 @@
-package org.example.springproject;
+package org.example.springproject.TaskDTO;
 
 import lombok.Data;
 
 @Data
-public class AddRequestDTO {
+public class AddTaskDTO {
     private String name;
     private String status;
 }
